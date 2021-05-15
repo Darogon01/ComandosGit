@@ -13,7 +13,7 @@
 - [Push](#push)
 - [Pull](#pull)
 - [Fetch](#fetch)
-- [Clonar repositorio](#lonar-repositorio)
+- [Clonar repositorio](#clonar-repositorio)
 
 
 ---
@@ -132,15 +132,15 @@ git remote -v
 git remote -v
 ```
 
-Al ejecutar el comando `git push` estaremos subiendo todos los cambios locales al servidor remoto de github, ten en cuenta que tienes que estar enlazado con tu repositorio, para eso puedes utilizar `git remote -v` y luego ejecuta:
-<img width="35rem" hight="auto" src="/Img/push.png"/>```javascript
+<img width="35rem" hight="auto" src="/Img/push.png"/>Al ejecutar el comando `git push` estaremos subiendo todos los cambios locales al servidor remoto de github, ten en cuenta que tienes que estar enlazado con tu repositorio, para eso puedes utilizar `git remote -v` y luego ejecuta:
+```javascript
 git push
 ```
 ---
 
 ### Pull
 
-Cuando realizamos cambios directamente en github pero no de forma local, es esencial realizar un pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
+<img width="35rem" hight="auto" src="/Img/pull files.png"/>Cuando realizamos cambios directamente en github pero no de forma local, es esencial realizar un pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
 Es importante estar enlazados remotamente, puedes verificar con: `git remote -v`, luego ejecuta:
 ```javascript
 git pull
@@ -149,6 +149,14 @@ git pull
 ### Fetch
 
 Este comando hace la comparación de nuestros archivos locales con los del servidor, si existiera alguna diferencia nos pediría realizar un `get pull` para realizar un match de nuestros arhivos locales.
+
+```javascript
+git fetch
+```
+---
+### Clonar repositorio
+
+<img width="35rem" hight="auto" src="/Img/clone.png"/>Para descargar un repositorio completo basta con tomar la url ej: https://github.com/xxxxxx/xxxxxxx-github.git y ejecutar el siguiente comando en alguna carpeta de su computadora.
 
 ```javascript
 git fetch
