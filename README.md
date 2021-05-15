@@ -13,7 +13,7 @@
 
 ---
 
-#### Comandos básicos
+### Comandos básicos
 
 ```javascript
 // Conocer la versión de git instalada
