@@ -10,6 +10,11 @@
 - [Comandos básicos](#comandos-básicos)
 - [Ramas o branch](#ramas-o-branch)
 
+---
+
+<p align="center"><img width="200rem" hight="auto" src="/Img/git-flujo.png"/></p>
+
+Explicando la imagen: Tenemos nuestro directorio local (una carpeta en nuestro pc) con muchos archivos, Git nos irá registrando los cambios de archivos o códigos cuando nosotros le indiquemos, así podremos viajar en el tiempo retrocediendo cambios o restaurando versiones de código, ya sea en Local o de forma Remota (servidor externo). En la práctica quedará más claro.
 
 ---
 
