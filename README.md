@@ -53,24 +53,37 @@ En resumidas cuentas nosotros realizamos cambios en nuestros archivos, el comand
 
 ```javascript
 // Crea una nueva rama
-git branch nombreRama
+git branch <nombre-de-rama>
 ```
 ```javascript
 // Nos muestra en que rama estamos
 git branch
 ```
 ```javascript
+//Para ver las ramas que tiene el repositorio en remoto
+git branch -A
+```
+```javascript
 // Nos movemos a la nueva rama
-git checkout nombreRama
+git checkout <nombre-de-rama>
+```
+```javascript
+// Nos movemos a la nueva rama
+git checkout <nombre-de-rama>
 ```
 Podemos unir la rama main con la nueva, para eso tenemos que estar en la main para ejecutar el siguiente comando:
 
 ```javascript
-// Nos movemos a la nueva rama
-git merge nombreRama
+// Fusiona la rama que indiquemos en el comando con la rama en la que estamos actualmente.
+git merge <nombre-de-rama>
+``` 
+
+```javascript
+// Para crear una rama nueva y movernos a ella en un solo comando
+git checkout -b <nombre-de-rama>
 ``` 
 ```javascript
 // Eliminar una rama
-git branch -d nombreRama
+git branch -d <nombre-de-rama>
 ``` 
 
