@@ -93,18 +93,12 @@ Nos movemos a la nueva rama.
 git checkout <nombre-de-rama>
 ```
 
-Nos movemos a la nueva rama.
-```javascript
-git checkout <nombre-de-rama>
-```
-Podemos unir la rama main con la nueva, para eso tenemos que estar en la main para ejecutar el siguiente comando:
-
 Fusiona la rama que indiquemos en el comando con la rama en la que estamos actualmente.
 ```javascript
 git merge <nombre-de-rama>
 ``` 
-Para crear una rama nueva y movernos a ella en un solo comando.
 
+Para crear una rama nueva y movernos a ella en un solo comando.
 ```javascript
 git checkout -b <nombre-de-rama>
 ``` 
