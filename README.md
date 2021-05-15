@@ -23,7 +23,6 @@
 Explicando la imagen: Tenemos nuestro directorio local (una carpeta en nuestro pc) con muchos archivos, Git nos irá registrando los cambios de archivos o códigos cuando nosotros le indiquemos, así podremos viajar en el tiempo retrocediendo cambios o restaurando versiones de código, ya sea en Local o de forma Remota (servidor externo). En la práctica quedará más claro.
 
 ---
-
 ### Comandos básicos
 
 Conocer la versión de git instalada.
@@ -132,7 +131,6 @@ git remote -v
 git push
 ```
 ---
-
 ### Pull
 
 <img width="35rem" hight="auto" src="/Img/pull files.png"/> Cuando realizamos cambios directamente en github pero no de forma local, es esencial realizar un pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
@@ -143,11 +141,11 @@ git pull
 ---
 ### Fetch
 
-Este comando hace la comparación de nuestros archivos locales con los del servidor, si existiera alguna diferencia nos pediría
-realizar un `git pull` para realizar un match de nuestros arhivos locales.
+Este comando hace la comparación de nuestros archivos locales con los del servidor, si existiera 
+alguna diferencia nos pediría realizar un `git pull` para realizar un match de nuestros arhivos locales.
 
 ```javascript
-git clone
+git fetch
 ```
 ---
 ### Clonar repositorio
@@ -155,5 +153,5 @@ git clone
 <img width="35rem" hight="auto" src="/Img/clone.png"/> Para descargar un repositorio completo basta con tomar la url ej: https://github.com/xxxxxx/xxxxxxx-github.git y ejecutar el siguiente comando en alguna carpeta de su computadora.
 
 ```javascript
-git fetch
+git clone
 ```
