@@ -1,13 +1,13 @@
 
 
 <h1 align="center">:rocket::cut_of_meat:COMANDS GIT:cut_of_meat::rocket:</h1>
-<p align="center"><img src="https://www.webdevelopersnotes.com/wp-content/uploads/create-a-simple-home-page.png"/></p>
+<p align="center"><img width="200rem" hight="auto" src="/Img/git.png"/></p>
 
 
 ---
 
 
-- [Badges o escudos](#badges-o-escudos)
+- [Comandos básicos](#comandos-básicos)
 - [Descripción y contexto](#descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
 - [Guía de instalación](#guía-de-instalación)
@@ -18,8 +18,13 @@
 - [Licencia](#licencia)
 - [Limitación de responsabilidades - Solo BID](#limitación-de-responsabilidades)
 
+---
 
+##Comandos básicos
 
+```javascript
+// Conocer la versión de git instalada
+git version
+```
 
-    Puedes usar este estilo de letra diferenciar los comandos de instalación.
-
+    
