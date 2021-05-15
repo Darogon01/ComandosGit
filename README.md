@@ -116,7 +116,7 @@ git branch -d <nombre-de-rama>
 ---
 ### Crear una nuevo repositorio
 
-<img width="35rem" hight="auto" src="/Img/push.png"/>Para subir nuestro proyecto debemos crear un nuevo repositorio, al momento de la creación nos mostrará una serie de comandos para subir el proyecto.
+<img width="35rem" hight="auto" src="/Img/push.png"/> Para subir nuestro proyecto debemos crear un nuevo repositorio, al momento de la creación nos mostrará una serie de comandos para subir el proyecto.
 ```javascript
 git remote add origin https://github.com/bluuweb/tutorial-github.git
 git push -u origin master
@@ -133,7 +133,7 @@ git remote -v
 git remote -v
 ```
 
-<img width="35rem" hight="auto" src="/Img/push.png"/>Al ejecutar el comando `git push` estaremos subiendo todos los cambios locales al servidor remoto de github, ten en cuenta que tienes que estar enlazado con tu repositorio, para eso puedes utilizar `git remote -v` y luego ejecuta:
+<img width="35rem" hight="auto" src="/Img/push.png"/> Al ejecutar el comando `git push` estaremos subiendo todos los cambios locales al servidor remoto de github, ten en cuenta que tienes que estar enlazado con tu repositorio, para eso puedes utilizar `git remote -v` y luego ejecuta:
 ```javascript
 git push
 ```
@@ -141,7 +141,7 @@ git push
 
 ### Pull
 
-<img width="35rem" hight="auto" src="/Img/pull files.png"/>Cuando realizamos cambios directamente en github pero no de forma local, es esencial realizar un pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
+<img width="35rem" hight="auto" src="/Img/pull files.png"/> Cuando realizamos cambios directamente en github pero no de forma local, es esencial realizar un pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
 Es importante estar enlazados remotamente, puedes verificar con: `git remote -v`, luego ejecuta:
 ```javascript
 git pull
@@ -149,10 +149,11 @@ git pull
 ---
 ### Fetch
 
-Este comando hace la comparación de nuestros archivos locales con los del servidor, si existiera alguna diferencia nos pediría realizar un `get pull` para realizar un match de nuestros arhivos locales.
+Este comando hace la comparación de nuestros archivos locales con los del servidor, si existiera alguna diferencia nos pediría realizar 
+un `git pull` para realizar un match de nuestros arhivos locales.
 
 ```javascript
-git fetch
+git clone
 ```
 ---
 ### Clonar repositorio
