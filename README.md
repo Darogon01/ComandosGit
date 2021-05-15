@@ -4,7 +4,7 @@
 <p align="center"><img src="https://www.webdevelopersnotes.com/wp-content/uploads/create-a-simple-home-page.png"/></p>
 
 
-
+---
 
 
 - [Badges o escudos](#badges-o-escudos)
@@ -21,5 +21,5 @@
 
 
 
-
+    Puedes usar este estilo de letra diferenciar los comandos de instalación.
 
