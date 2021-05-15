@@ -60,12 +60,13 @@ git add <dir>
 git commit -m "primer commit"
 ```
 
-// Muestra la lista de commit del mas reciente al más antigüo.
+Muestra la lista de commit del mas reciente al más antigüo.
 ```javascript
 git log
 ```
 
-En resumidas cuentas nosotros realizamos cambios en nuestros archivos, el comando ```git status``` verificará que archivos han sidos modificados. Cuando deseemos registrar esos cambios tendremos que agregarlos con ```git add dir/-A``` así ya estará listo para poder hacer un ```git commit -m ""```. El commit realiza la copia de ese instante para poder volver en el tiempo si es que es necesario. A continuación estaremos listos para subirlo a nuestro repositorio remoto con ```git push```.
+En resumidas cuentas nosotros realizamos cambios en nuestros archivos, el comando `git status` verificará que archivos han sidos modificados. 
+Cuando deseemos registrar esos cambios tendremos que agregarlos con `git add dir/-A` así ya estará listo para poder hacer un `git commit -m ""`. El commit realiza la copia de ese instante para poder volver en el tiempo si es que es necesario. A continuación estaremos listos para subirlo a nuestro repositorio remoto con `git push`.
 
 ---
 
