@@ -8,7 +8,7 @@
 
 
 - [Comandos básicos](#comandos-básicos)
-- [Descripción y contexto](#descripción-y-contexto)
+- [Ramas o branch](#ramas-o-branch)
 
 
 ---
@@ -47,6 +47,30 @@ git commit -m "primer commit"
 git log
 ```
 
-En resumidas cuentas nosotros realizamos cambios en nuestros archivos, el comando status verificará que archivos han sidos modificados. Cuando deseemos registrar esos cambios tendremos que agregarlos con ```git add dir/-A``` así ya estará listo para poder hacer un commit. El commit realiza la copia de ese instante para poder volver en el tiempo si es que es necesario
+En resumidas cuentas nosotros realizamos cambios en nuestros archivos, el comando ```git status``` verificará que archivos han sidos modificados. Cuando deseemos registrar esos cambios tendremos que agregarlos con ```git add dir/-A``` así ya estará listo para poder hacer un ```git commit -m ""```. El commit realiza la copia de ese instante para poder volver en el tiempo si es que es necesario. A continuación estaremos listos para subirlo a nuestro repositorio remoto con ```git push```.
 
-    
+### Ramas o branch
+
+```javascript
+// Crea una nueva rama
+git branch nombreRama
+```
+```javascript
+// Nos muestra en que rama estamos
+git branch
+```
+```javascript
+// Nos movemos a la nueva rama
+git checkout nombreRama
+```
+Podemos unir la rama main con la nueva, para eso tenemos que estar en la main para ejecutar el siguiente comando:
+
+```javascript
+// Nos movemos a la nueva rama
+git merge nombreRama
+``` 
+```javascript
+// Eliminar una rama
+git branch -d nombreRama
+``` 
+
