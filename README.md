@@ -1,6 +1,6 @@
 
 
-<h1 align="center">COMANDS GIT</h1>
+<h1 align="center">:rocket::cut_of_meat:COMANDS GIT:cut_of_meat::rocket:</h1>
 <p align="center"><img src="https://www.webdevelopersnotes.com/wp-content/uploads/create-a-simple-home-page.png"/></p>
 
 
