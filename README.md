@@ -4,6 +4,9 @@
 <p align="center"><img src="https://www.webdevelopersnotes.com/wp-content/uploads/create-a-simple-home-page.png"/></p>
 
 
+
+
+
 - [Badges o escudos](#badges-o-escudos)
 - [Descripción y contexto](#descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
@@ -14,3 +17,9 @@
 - [Información adicional](#información-adicional)
 - [Licencia](#licencia)
 - [Limitación de responsabilidades - Solo BID](#limitación-de-responsabilidades)
+
+
+
+
+
+
