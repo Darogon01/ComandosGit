@@ -143,8 +143,8 @@ git pull
 ---
 ### Fetch
 
-Este comando hace la comparación de nuestros archivos locales con los del servidor, si existiera alguna diferencia nos pediría realizar 
-un `git pull` para realizar un match de nuestros arhivos locales.
+Este comando hace la comparación de nuestros archivos locales con los del servidor, si existiera alguna diferencia nos pediría
+realizar un `git pull` para realizar un match de nuestros arhivos locales.
 
 ```javascript
 git clone
@@ -152,7 +152,7 @@ git clone
 ---
 ### Clonar repositorio
 
-<img width="35rem" hight="auto" src="/Img/clone.png"/>Para descargar un repositorio completo basta con tomar la url ej: https://github.com/xxxxxx/xxxxxxx-github.git y ejecutar el siguiente comando en alguna carpeta de su computadora.
+<img width="35rem" hight="auto" src="/Img/clone.png"/> Para descargar un repositorio completo basta con tomar la url ej: https://github.com/xxxxxx/xxxxxxx-github.git y ejecutar el siguiente comando en alguna carpeta de su computadora.
 
 ```javascript
 git fetch
