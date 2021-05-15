@@ -1,6 +1,6 @@
 
 
-<h1 align="center">:rocket::cut_of_meat:COMANDS GIT:cut_of_meat::rocket:</h1>
+<h1 align="center">:rocket::cut_of_meat: COMANDOS GIT :cut_of_meat::rocket:</h1>
 <p align="center"><img width="200rem" hight="auto" src="/Img/git.png"/></p>
 
 
