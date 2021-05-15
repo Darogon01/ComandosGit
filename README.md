@@ -1,7 +1,7 @@
 
 
 <h1 align="center">:rocket::cut_of_meat:COMANDS GIT:cut_of_meat::rocket:</h1>
-<p align="center"><img width="200rem" hight="auto" border-radius="10px" src="/Img/git.png"/></p>
+<p align="center"><img width="200rem" hight="auto" src="/Img/git.png"/></p>
 
 
 ---
@@ -46,7 +46,7 @@ git init
 
 git status
 ```
-Agregar todos los archivos los al staging área.<img width="200rem" hight="auto" src="/Img/add-file SD.png"/>
+Agregar todos los archivos los al staging área.<img width="200rem" hight="auto" border-radius="10px" src="/Img/add-file SD.png"/>
 ```javascript
 git add -A
 ```
