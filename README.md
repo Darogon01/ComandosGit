@@ -41,22 +41,21 @@ Iniciar un nuevo repositorio.
 git init
 ```
 
-// Ver que archivos no han sido registrados.
+<img width="35rem" hight="auto" src="/Img/status.png"/>Ver que archivos no han sido registrados.
 ```javascript
-
 git status
 ```
-Agregar todos los archivos los al staging área.<img width="40rem" hight="auto"  src="/Img/add-file.png"/>
+<img width="35rem" hight="auto" src="/Img/add-file.png"/>Agregar todos los archivos los al staging área.>
 ```javascript
 git add -A
 ```
 
-Agrega el archivo que elijamos al staging área.
+<img width="35rem" hight="auto" src="/Img/add-file.png"/>Agrega el archivo que elijamos al staging área.
 ```javascript
 git add <dir> 
 ```
 
-Crear commit (fotografía del proyecto en ese momento).
+<img width="35rem" hight="auto" src="/Img/comentar.png"/>Crear commit (fotografía del proyecto en ese momento).
 ```javascript
 git commit -m "primer commit"
 ```
@@ -116,7 +115,7 @@ git branch -d <nombre-de-rama>
 ---
 ### Crear una nuevo repositorio
 
-Para subir nuestro proyecto debemos crear un nuevo repositorio, al momento de la creación nos mostrará una serie de comandos para subir el proyecto.
+<img width="35rem" hight="auto" src="/Img/push.png"/>Para subir nuestro proyecto debemos crear un nuevo repositorio, al momento de la creación nos mostrará una serie de comandos para subir el proyecto.
 ```javascript
 git remote add origin https://github.com/bluuweb/tutorial-github.git
 git push -u origin master
@@ -134,10 +133,11 @@ git remote -v
 ```
 
 Al ejecutar el comando `git push` estaremos subiendo todos los cambios locales al servidor remoto de github, ten en cuenta que tienes que estar enlazado con tu repositorio, para eso puedes utilizar `git remote -v` y luego ejecuta:
-```javascript
+<img width="35rem" hight="auto" src="/Img/push.png"/>```javascript
 git push
 ```
 ---
+
 ### Pull
 
 Cuando realizamos cambios directamente en github pero no de forma local, es esencial realizar un pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
