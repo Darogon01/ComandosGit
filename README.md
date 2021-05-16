@@ -176,7 +176,7 @@ Ignora todos los arhivos con extensión .js
 ```
 Ignora toda la carpeta
 ```javascript
-node_modules/ 
+nombreCarpeta/ 
 ```
 
  
