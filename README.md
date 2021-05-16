@@ -14,6 +14,7 @@
 - [Pull](#pull)
 - [Fetch](#fetch)
 - [Clonar repositorio](#clonar-repositorio)
+- [Ignorando Archivos](#ignorando-archivos)
 
 
 ---
@@ -155,3 +156,27 @@ git fetch
 ```javascript
 git clone https://github.com/xxxxxx/xxxxxxx-github.git
 ```
+---
+### Ignorando Archivos
+
+Para no hacer seguimiento de carpetas o archivos, debemos crear el siguiente archivo:
+
+```javascript
+.gitignore
+```
+Dentro del archivo `.gitignore` su estructura de ejemplo para ignorar archivos sería así:
+
+Ignora el archivos en cuestion
+```javascript
+arhivo.js
+```
+Ignora todos los arhivos con extensión .js
+```javascript
+*.js
+```
+Ignora toda la carpeta
+```javascript
+node_modules/ 
+```
+
+ 
