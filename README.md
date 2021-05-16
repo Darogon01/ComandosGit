@@ -44,7 +44,7 @@ git init
 ```javascript
 git status
 ```
-<img width="35rem" hight="auto" src="/Img/add-file.png"/>Agregar todos los archivos los al staging área.>
+<img width="35rem" hight="auto" src="/Img/add-file.png"/>Agregar todos los archivos los al staging área.
 ```javascript
 git add -A
 ```
